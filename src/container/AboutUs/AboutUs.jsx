@@ -16,8 +16,8 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About us</h1>
         <img src={images.spoon} alt="spoon" className="spoon__image" />
         <p className="p__opensans">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci vel
-          praesentium eius consectetur voluptas impedit.
+          Experience the passion and creativity of our culinary team, dedicated
+          to crafting unforgettable dining experiences for our guests.
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -30,8 +30,9 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="spoon" className="spoon__image" />
         <p className="p__opensans">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci vel
-          praesentium eius consectetur voluptas impedit.
+          Our restaurant has been a beloved local institution for decades,
+          serving up authentic and delicious cuisine inspired by the rich
+          cultural heritage of our region.
         </p>
         <button type="button" className="custom__button">
           Know More

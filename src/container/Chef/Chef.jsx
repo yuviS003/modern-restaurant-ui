@@ -17,13 +17,12 @@ const Chef = () => (
         <div className="app__chef-content_qoute">
           <img src={images.quote} alt="qoute" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-            adipisci?
+            Come dine with us and experience the perfect harmony of exceptional
+            cuisine, warm hospitality, and a truly unforgettable dining
+            experience.
           </p>
         </div>
-        <p className="p__opensans">
-          Accusantium exercitationem ad ducimus eaque accusamus.
-        </p>
+        <p className="p__opensans">"Discover the art of flavor at our table.</p>
       </div>
 
       <div className="app__chef-sign">
