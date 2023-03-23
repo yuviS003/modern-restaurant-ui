@@ -6,7 +6,7 @@ import { meal } from "../../constants";
 import "./Intro.css";
 
 const Intro = () => {
-  const [playVideo, setPlayVideo] = useState(false);
+  const [playVideo, setPlayVideo] = useState(true);
   const vidRef = useRef();
   return (
     <div className="app__video">
@@ -17,6 +17,7 @@ const Intro = () => {
         loop
         controls={false}
         muted
+        autoPlay
       />
       <div className="app__video-overlay flex__center">
         <div
